@@ -2,9 +2,8 @@
     background-color:#666666;
     width: 375px;
     height: 667px;
-    overflow:hidden;
+    max-height: 100vh;
 
 }
 .feed{
-    overflow:hidden;
 }

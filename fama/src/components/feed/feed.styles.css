@@ -1,9 +1,7 @@
 .feed-box {
     height: 250px;
     width: 100%;
-    background-color: white;
-    overflow:hidden;
-    
+    background-color: white;    
 }
 .article-header {
 
@@ -41,5 +39,4 @@
     margin-top:19px;
 }
 .feed{
-    overflow:hidden;
 }
