@@ -1,8 +1,10 @@
 import React from 'react';
 import './feed.styles.css';
+import Feed from '../../components/feed/feed.component';
+
 
 export const FeedPage = props => (
     <div className='feed-page'>
-        <h1> THIS IS THE FEED PAGE </h1>
+        <Feed className='feed'/>
     </div>
 );

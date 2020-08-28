@@ -1,0 +1,45 @@
+.feed-box {
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    overflow:hidden;
+    
+}
+.article-header {
+
+}
+.article-tag {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #ff7002;
+}
+.article-header{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.article-image {
+    float:right;
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    max-height: 110px;
+    max-width: 110px;
+}
+.article-preview-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #555555;
+    margin-top:10px;
+}
+.article-divider{
+    background-color:#333333;
+    bottom: 4px;
+    width: 300px;
+    height: 1px;
+    margin:auto;
+    margin-top:19px;
+}
+.feed{
+    overflow:hidden;
+}

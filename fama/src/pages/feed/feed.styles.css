@@ -1,6 +1,10 @@
 .feed-page{
-    background-color:forestgreen;
+    background-color:#666666;
     width: 375px;
     height: 667px;
-    color: red;
+    overflow:hidden;
+
+}
+.feed{
+    overflow:hidden;
 }
