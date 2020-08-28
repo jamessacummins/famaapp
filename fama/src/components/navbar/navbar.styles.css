@@ -4,8 +4,8 @@
     background-color:white;
     border-top: thick;
     border-color: #333333;  
-    position:absolute;
-    bottom:-50px;
+    position:fixed;
+    top: 617px;
     display:flex;
     justify-content:center;
     align-items: center;
