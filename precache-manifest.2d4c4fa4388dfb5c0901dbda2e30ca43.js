@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfd79c9a6b3c9fcaeec141b59f077724",
+    "revision": "f659e686d667fed69b4fd3d251ba979d",
     "url": "/famaapp/index.html"
   },
   {
-    "revision": "bbc43249f740a1a99931",
-    "url": "/famaapp/static/css/main.791a83a2.chunk.css"
+    "revision": "9ef5fe9e12a81b83b451",
+    "url": "/famaapp/static/css/main.ecb7c80b.chunk.css"
   },
   {
-    "revision": "defbb1fa6bf1d13b6896",
-    "url": "/famaapp/static/js/2.7a17ac28.chunk.js"
+    "revision": "49fe2858d29b8ed707d1",
+    "url": "/famaapp/static/js/2.253eae05.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/famaapp/static/js/2.7a17ac28.chunk.js.LICENSE.txt"
+    "url": "/famaapp/static/js/2.253eae05.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bbc43249f740a1a99931",
-    "url": "/famaapp/static/js/main.b8099289.chunk.js"
+    "revision": "9ef5fe9e12a81b83b451",
+    "url": "/famaapp/static/js/main.b221b07f.chunk.js"
   },
   {
     "revision": "bd9a674e0a306653019b",
     "url": "/famaapp/static/js/runtime-main.04669093.js"
+  },
+  {
+    "revision": "3954ba7deb0fc33b02142a2b2b4a4374",
+    "url": "/famaapp/static/media/corona.3954ba7d.jpeg"
   },
   {
     "revision": "44c4421e97b8e45ccb544a5b2bbb491a",
