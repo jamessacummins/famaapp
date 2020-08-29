@@ -3,6 +3,16 @@ import './search.styles.css';
 
 export const SearchPage = props => (
     <div className='search-page'>
-        <h1>THIS IS THE SEARCH PAGE</h1>
+        <div className='search-container'>
+            <div className='profile'>
+                Ross Gittins
+            </div>
+            <div className='profile'>
+                Sam Harris
+            </div>
+            <div className='profile'>
+                Peter Gerste
+            </div>
+            </div>
     </div>
 );

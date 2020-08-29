@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\fama",
+    "\\fama\\src",
+    "\\fama\\src\\components",
+    "\\fama\\src\\components\\feed",
+    "\\fama\\src\\components\\feed-box",
+    "\\fama\\src\\pages",
+    "\\fama\\src\\pages\\article",
+    "\\fama\\src\\pages\\feed",
+    "\\fama\\src\\pages\\search"
+  ],
+  "SelectedNode": "\\fama\\src\\pages\\search\\search.page.jsx",
+  "PreviewInSolutionExplorer": false
+}

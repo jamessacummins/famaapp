@@ -3,3 +3,22 @@
     width: 375px;
     height: 667px;
 }
+.search-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.profile {
+    height:10%;
+    width:40%;
+    background-color: grey;
+    border: 3px;
+    border-color: black;
+    border-radius:20%;
+    font-size: 18px;
+    font-weight: bold;
+    padding:10px;
+}

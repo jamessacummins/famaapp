@@ -1,7 +1,7 @@
 .feed-box {
-    height: 250px;
-    width: 100%;
-    background-color: white;    
+    height: auto;
+    width: 375px;
+    background-color: white;
 }
 .article-header {
 
