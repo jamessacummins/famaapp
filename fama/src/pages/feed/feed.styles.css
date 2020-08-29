@@ -6,4 +6,6 @@
 .feed{
     position:relative;
     top:50px;
+    padding-top: 20px;
+    background-color:white;
 }
