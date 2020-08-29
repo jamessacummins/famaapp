@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dcd5bcdcbf71912deb3018e9095033d",
+    "revision": "1358ff269f80fdc4a292fc5758d6c22f",
     "url": "/famaapp/index.html"
   },
   {
-    "revision": "e29db73b43c40fef17b3",
+    "revision": "bb31fa3d30d92c56fd28",
     "url": "/famaapp/static/css/main.6045cff5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/famaapp/static/js/2.7a17ac28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e29db73b43c40fef17b3",
-    "url": "/famaapp/static/js/main.9f59204d.chunk.js"
+    "revision": "bb31fa3d30d92c56fd28",
+    "url": "/famaapp/static/js/main.85b0c8b7.chunk.js"
   },
   {
     "revision": "bd9a674e0a306653019b",

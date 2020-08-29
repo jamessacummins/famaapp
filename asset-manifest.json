@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/famaapp/static/css/main.6045cff5.chunk.css",
-    "main.js": "/famaapp/static/js/main.9f59204d.chunk.js",
-    "main.js.map": "/famaapp/static/js/main.9f59204d.chunk.js.map",
+    "main.js": "/famaapp/static/js/main.85b0c8b7.chunk.js",
+    "main.js.map": "/famaapp/static/js/main.85b0c8b7.chunk.js.map",
     "runtime-main.js": "/famaapp/static/js/runtime-main.04669093.js",
     "runtime-main.js.map": "/famaapp/static/js/runtime-main.04669093.js.map",
     "static/js/2.7a17ac28.chunk.js": "/famaapp/static/js/2.7a17ac28.chunk.js",
     "static/js/2.7a17ac28.chunk.js.map": "/famaapp/static/js/2.7a17ac28.chunk.js.map",
     "index.html": "/famaapp/index.html",
-    "precache-manifest.ada048764158c136d6b7cef12dc93e67.js": "/famaapp/precache-manifest.ada048764158c136d6b7cef12dc93e67.js",
+    "precache-manifest.fe100acdf662b153906ddeb156691cc3.js": "/famaapp/precache-manifest.fe100acdf662b153906ddeb156691cc3.js",
     "service-worker.js": "/famaapp/service-worker.js",
     "static/css/main.6045cff5.chunk.css.map": "/famaapp/static/css/main.6045cff5.chunk.css.map",
     "static/js/2.7a17ac28.chunk.js.LICENSE.txt": "/famaapp/static/js/2.7a17ac28.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.04669093.js",
     "static/js/2.7a17ac28.chunk.js",
     "static/css/main.6045cff5.chunk.css",
-    "static/js/main.9f59204d.chunk.js"
+    "static/js/main.85b0c8b7.chunk.js"
   ]
 }
