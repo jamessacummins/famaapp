@@ -8,19 +8,24 @@ export const Feed = props => (
     <div className='feed'>
         <FeedBox 
             article={props.articles[0]}
+            updatePageToArticle={props.updatePageToArticle}
             
         />
        <FeedBox 
             article={props.articles[1]}
+            updatePageToArticle={props.updatePageToArticle}
         />
         <FeedBox 
             article={props.articles[0]}
+            updatePageToArticle={props.updatePageToArticle}
         />
         <FeedBox 
             article={props.articles[1]}
+            updatePageToArticle={props.updatePageToArticle}
         />
         <FeedBox 
             article={props.articles[1]}
+            updatePageToArticle={props.updatePageToArticle}
         />
     </div>
 );

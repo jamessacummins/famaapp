@@ -5,13 +5,13 @@ export const FeedBox = props => (
     <div>
         <div 
             className='feed-box'
-            
+            onClick={props.updatePageToArticle}
         >
             <div className='article-tag-wrapper'>
                 <p className='article-tag'>{props.article[0]}</p>
             </div>
             <h3 className='article-header'>{props.article[1]}</h3>
-            <img className='article-image' alt='article' src={props.article[3]}></img>
+            <img className='article-image' alt='a image to accopmany the main article' src={props.article[3]}></img>
             <p className='article-preview-content'>{props.article[2]}</p>   
             <div className='article-divider'></div>         
         </div>
