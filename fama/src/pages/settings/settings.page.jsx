@@ -3,6 +3,17 @@ import './settings.styles.css';
 
 export const SettingsPage = props => (
     <div className='settings-page'>
-        <h1>THIS IS THE SETTINGS PAGE</h1>
+        <div className='settings-container'>
+            <button className='settings-item'>
+                Payment Information
+            </button>
+            <button className='settings-item'>
+                Logout
+            </button>
+            <button className='settings-item'>
+                My Subscriptions
+            </button>
+            
+        </div>
     </div>
 );

@@ -1,0 +1,11 @@
+.article-page{
+    height: 677px;
+    width:375px;
+}
+.article-container {
+    position:absolute;
+    top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color:red;
+}
