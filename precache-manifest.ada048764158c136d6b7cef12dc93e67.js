@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ebbff40a899cc570149a41cfc68becf",
+    "revision": "7dcd5bcdcbf71912deb3018e9095033d",
     "url": "/famaapp/index.html"
   },
   {
-    "revision": "e1bdda5fac8d6fe7db53",
-    "url": "/famaapp/static/css/main.7e6dd200.chunk.css"
+    "revision": "e29db73b43c40fef17b3",
+    "url": "/famaapp/static/css/main.6045cff5.chunk.css"
   },
   {
-    "revision": "20d5e8586f8e5ae3bf54",
-    "url": "/famaapp/static/js/2.6fa9fd96.chunk.js"
+    "revision": "defbb1fa6bf1d13b6896",
+    "url": "/famaapp/static/js/2.7a17ac28.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/famaapp/static/js/2.6fa9fd96.chunk.js.LICENSE.txt"
+    "url": "/famaapp/static/js/2.7a17ac28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1bdda5fac8d6fe7db53",
-    "url": "/famaapp/static/js/main.7336f29f.chunk.js"
+    "revision": "e29db73b43c40fef17b3",
+    "url": "/famaapp/static/js/main.9f59204d.chunk.js"
   },
   {
     "revision": "bd9a674e0a306653019b",
