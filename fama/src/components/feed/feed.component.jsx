@@ -1,7 +1,7 @@
 import React from 'react';
-import App from '../../App';
+
 import './feed.styles.css';
-import Corona from '../../resources/corona.jpeg';
+
 import {FeedBox} from '../feed-box/feed-box.component';
 
 export const Feed = props => (

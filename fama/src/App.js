@@ -46,24 +46,15 @@ class App extends React.Component {
   updatePageToArticle = () => {
     this.setState({page:5})
   }
-  updateCurrentArticle =(updateNumber) =>{
-    this.setState({
-      currentArticle: updateNumber
-    })
-  }
-  updateA(num) { this.setState({
-    currentArticle: num
-  }) };
-  componentDidMount(){
-    this.updateCurrentArticle(2);
-  }
+  
+ 
   render(){
     let pageDisplayed;
-    let updateA = this.updateA;
+    
     if(this.state.page === 0){
       pageDisplayed = <LoginPage updatePageToFeed={this.updatePageToFeed}/>
     } else if(this.state.page === 1) {
-      pageDisplayed = [<FeedPage articles={this.state.articles} updateA={updateA.bind(this)} updatePageToArticle={this.updatePageToArticle}/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/>]
+      pageDisplayed = [<FeedPage articles={this.state.articles} updatePageToArticle={this.updatePageToArticle}/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/>]
     } else if (this.state.page === 2){
     pageDisplayed = [<SettingsPage/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/> ]
     } else if (this.state.page === 3){
