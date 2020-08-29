@@ -7,7 +7,8 @@ export const SettingsPage = props => (
             <button className='settings-item'>
                 Payment Information
             </button>
-            <button className='settings-item'>
+            <button className='settings-item'
+            onClick={props.updatePageToLogin}>
                 Logout
             </button>
             <button className='settings-item'>

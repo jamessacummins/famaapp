@@ -7,6 +7,7 @@ import {JournalistPage} from './pages/journalist/journalist.page';
 import {SearchPage} from './pages/search/search.page';
 import {Navbar} from './components/navbar/navbar.component';
 import {ArticlePage} from './pages/article/article.page';
+import {SubscriptionPage} from './pages/subscription/subscription.page';
 
 
 
@@ -61,10 +62,34 @@ class App extends React.Component {
           "12:04pm 24th of August 2020"
         ],
         [
-          "FUN IN THE SUN PANDEMIC?",
-          "WHY NOT?",
-          "Anyone who lives or works in greater Syd,sed to refrain from visiting aged care facilities for 14 days, with the state expected to record double-figure increases in COVID-19 cases in coming days.",
-          "https://specials-images.forbesimg.com/imageserve/1211364644/960x0.jpg?fit=scale"
+          "INTERNATIONAL NEWS",
+          "Definite shift' in Border Force approach to travel ban as approvals surge",
+          "The Australian Border Force is approving travel requests at a much higher rate now than earlier in the pandemic and making decisions within hours that previously took weeks.",
+          "https://static.ffx.io/images/$zoom_0.249%2C$multiply_0.4431%2C$ratio_1.5%2C$width_756%2C$x_13%2C$y_0/t_crop_custom/q_86%2Cf_auto/adcfc6fe4b3a9276f1858d6af1347b9a8bb161f8"
+        ],
+        [
+          "GADGETS",
+          "Elon Musk unveils brain computer implanted in pigs",
+          "Just when you thought the year 2020 couldn't get much weirder, billionaire Elon Musk has introduced a group of pigs with mind-reading brain implants.",
+          "https://static.ffx.io/images/$zoom_0.14682173174872665%2C$multiply_0.254%2C$ratio_1%2C$width_378%2C$x_0%2C$y_99/t_crop_custom/q_86%2Cf_auto/9eac226fad1ce3d7afd5e7c9fc8381d29e040b03"
+        ],
+        [
+          "OPINION/CHINA-RELATIONS",
+          "The Andrews-Morrison bromance is heading for an ugly break-up",
+          "The window of convenience that saw a working relationship blossom during COVID-19 is coming to a tragic end.",
+          "https://static.ffx.io/images/$zoom_0.3%2C$multiply_0.254%2C$ratio_1%2C$width_378%2C$x_79%2C$y_0/t_crop_custom/q_86%2Cf_auto/b5ee7fbde675a678e1bde60c8fdf288a4e01ac77"
+        ],
+        [
+          "CONSUMER SPENDING",
+          "Household savings climb as Aussies hunker down for recession",
+          "Households are using the pandemic year to build their nest eggs and gird against recession, with savings and investments trending higher since the start of 2020.",
+          "https://static.ffx.io/images/$zoom_0.149%2C$multiply_0.254%2C$ratio_1%2C$width_378%2C$x_201%2C$y_0/t_crop_custom/q_86%2Cf_auto/3497f0f06334e12f61fc72c10fbab16e3fa07ef0"
+        ],
+        [
+          "ROAD SAFETY",
+          "Sydney slows down as state government pushes for lower speed limits",
+          "Motorists will be forced to slow down in more areas of Sydney as speed limits are lowered to improve road safety.",
+          "https://static.ffx.io/images/$zoom_0.1542%2C$multiply_0.4%2C$ratio_1%2C$width_200%2C$x_86%2C$y_0/t_crop_custom/q_86%2Cf_auto/fb20175a07015f5d10280efc06455c5ef7e599cc"
         ]
       ]
     };
@@ -83,6 +108,15 @@ class App extends React.Component {
   updatePageToArticle = () => {
     this.setState({page:5})
   }
+  updatePageToJourno = () => {
+    this.setState({page:4})
+  }
+  updatePageToSub = () => {
+    this.setState({page:6})
+  }
+  updatePageToLogin = () => {
+    this.setState({page:0})
+  }
   
  
   render(){
@@ -93,13 +127,15 @@ class App extends React.Component {
     } else if(this.state.page === 1) {
       pageDisplayed = [<FeedPage articles={this.state.articles} updatePageToArticle={this.updatePageToArticle}/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/>]
     } else if (this.state.page === 2){
-    pageDisplayed = [<SettingsPage/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/> ]
+    pageDisplayed = [<SettingsPage updatePageToLogin={this.updatePageToLogin}/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/> ]
     } else if (this.state.page === 3){
       pageDisplayed = [<JournalistPage/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/>]
     } else if (this.state.page === 4){
     pageDisplayed = [<SearchPage/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/>]
     } else if (this.state.page === 5){
-      pageDisplayed = [<ArticlePage articles={this.state.articles}/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/>]
+      pageDisplayed = [<ArticlePage articles={this.state.articles} updatePageToSub={this.updatePageToSub}/>, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/>]
+    } else if (this.state.page === 6){
+      pageDisplayed = [<SubscriptionPage articles={this.state.articles} />, <Navbar updatePageToSearch={this.updatePageToSearch} updatePageToFeed={this.updatePageToFeed} updatePageToSettings={this.updatePageToSettings}/>]
     }
     
     return (

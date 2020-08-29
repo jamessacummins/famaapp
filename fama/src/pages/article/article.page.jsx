@@ -3,7 +3,9 @@ import './article.styles.css';
 import Ross from '../../resources/ross.jpg';
 
 export const ArticlePage = props => (
-    <div className='article-page'>
+    <div className='article-page'
+        onClick={props.updatePageToSub}
+    >
         <div className='article-container'>
         <h1 className='tagger'>{props.articles[0][0]}</h1>
         <h1 className='header-article'>{props.articles[0][1]}</h1>
