@@ -18,12 +18,14 @@ class App extends React.Component {
         [
           "CORONAVIRUS PANDEMIC?",
           "SYDFEYSIDERS URGED BLAH BLAH",
-          "Anyone who lives or works in greater Sydney or the Central Coast has been strongly advised to refrain from visiting aged care facilities for 14 days, with the state expected to record double-figure increases in COVID-19 cases in coming days."
+          "Anyone who lives or works in greater Sydney or the Central Coast has been strongly advised to refrain from visiting aged care facilities for 14 days, with the state expected to record double-figure increases in COVID-19 cases in coming days.",
+          "corona.jpeg"
         ],
         [
           "FUN IN THE SUN PANDEMIC?",
           "WHY NOT?",
-          "Anyone who lives or works in greater Sydney or the Central Coast has been strongly advised to refrain from visiting aged care facilities for 14 days, with the state expected to record double-figure increases in COVID-19 cases in coming days."
+          "Anyone who lives or works in greater Syd,sed to refrain from visiting aged care facilities for 14 days, with the state expected to record double-figure increases in COVID-19 cases in coming days.",
+          "corona.jpeg"
         ]
       ]
     };

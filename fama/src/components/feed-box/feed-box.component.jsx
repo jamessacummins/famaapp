@@ -10,7 +10,7 @@ export const FeedBox = props => (
             </div>
             <h3 className='article-header'>{props.article[1]}</h3>
                 
-            <img className='article-image' alt='article image' src={Corona}></img>
+            <img className='article-image' alt='article image' src='../../resources/corona.jpeg'></img>
 <p className='article-preview-content'>{props.article[2]}</p>   
             <div className='article-divider'></div>         
         </div>
