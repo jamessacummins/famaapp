@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/famaapp/static/css/main.6045cff5.chunk.css",
-    "main.js": "/famaapp/static/js/main.85b0c8b7.chunk.js",
-    "main.js.map": "/famaapp/static/js/main.85b0c8b7.chunk.js.map",
+    "main.js": "/famaapp/static/js/main.6e946377.chunk.js",
+    "main.js.map": "/famaapp/static/js/main.6e946377.chunk.js.map",
     "runtime-main.js": "/famaapp/static/js/runtime-main.04669093.js",
     "runtime-main.js.map": "/famaapp/static/js/runtime-main.04669093.js.map",
     "static/js/2.7a17ac28.chunk.js": "/famaapp/static/js/2.7a17ac28.chunk.js",
     "static/js/2.7a17ac28.chunk.js.map": "/famaapp/static/js/2.7a17ac28.chunk.js.map",
     "index.html": "/famaapp/index.html",
-    "precache-manifest.fe100acdf662b153906ddeb156691cc3.js": "/famaapp/precache-manifest.fe100acdf662b153906ddeb156691cc3.js",
+    "precache-manifest.3ffd0ed1bb6fbe4cdbe760673f0d6992.js": "/famaapp/precache-manifest.3ffd0ed1bb6fbe4cdbe760673f0d6992.js",
     "service-worker.js": "/famaapp/service-worker.js",
     "static/css/main.6045cff5.chunk.css.map": "/famaapp/static/css/main.6045cff5.chunk.css.map",
     "static/js/2.7a17ac28.chunk.js.LICENSE.txt": "/famaapp/static/js/2.7a17ac28.chunk.js.LICENSE.txt",
-    "static/media/corona.jpeg": "/famaapp/static/media/corona.3954ba7d.jpeg",
     "static/media/gear.png": "/famaapp/static/media/gear.44c4421e.png",
     "static/media/logo.png": "/famaapp/static/media/logo.1d3e26f7.png",
     "static/media/search.png": "/famaapp/static/media/search.d3763524.png"
@@ -21,6 +20,6 @@
     "static/js/runtime-main.04669093.js",
     "static/js/2.7a17ac28.chunk.js",
     "static/css/main.6045cff5.chunk.css",
-    "static/js/main.85b0c8b7.chunk.js"
+    "static/js/main.6e946377.chunk.js"
   ]
 }
